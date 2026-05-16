@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffafa;
+  --foreground: #2d2d2d;
+  --beauty-50: #fff1f2;
+  --beauty-100: #ffe4e6;
+  --beauty-200: #fecdd3;
+  --beauty-300: #fda4af;
+  --beauty-400: #fb7185;
+  --beauty-500: #f43f5e;
+  --beauty-600: #e11d48;
+  --beauty-700: #be123c;
+  --beauty-800: #9f1239;
+  --beauty-900: #881337;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-beauty-50: var(--beauty-50);
+  --color-beauty-100: var(--beauty-100);
+  --color-beauty-200: var(--beauty-200);
+  --color-beauty-300: var(--beauty-300);
+  --color-beauty-400: var(--beauty-400);
+  --color-beauty-500: var(--beauty-500);
+  --color-beauty-600: var(--beauty-600);
+  --color-beauty-700: var(--beauty-700);
+  --color-beauty-800: var(--beauty-800);
+  --color-beauty-900: var(--beauty-900);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
