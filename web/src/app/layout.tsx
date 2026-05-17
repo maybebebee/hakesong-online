@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "AI 美妆搭子 - 你的专属妆容方案",
+  title: "Mirror Ai - 你的专属妆容方案",
   description: "基于 AI 的美妆视频解析与个性化妆容推荐系统",
 };
 
