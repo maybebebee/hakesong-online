@@ -13,7 +13,7 @@ export default function Navbar() {
               <Sparkles size={24} />
             </div>
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-beauty-600 to-beauty-400">
-              AI 美妆搭子
+              Mirror Ai
             </span>
           </Link>
           
