@@ -63,7 +63,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <Sparkles className="text-beauty-400" size={32} />
-                <span className="text-2xl font-bold">AI 美妆搭子</span>
+                <span className="text-2xl font-bold">Mirror Ai</span>
               </div>
               <p className="text-slate-400 max-w-sm leading-relaxed">
                 重新定义美妆内容消费。我们利用 AI 技术，让每个用户都能轻松复刻心仪妆容。
